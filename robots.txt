@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://patrol-garage.vercel.app/sitemap.xml
