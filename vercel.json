@@ -9,6 +9,20 @@
   ],
   "routes": [
     {
+      "src": "/robots.txt",
+      "dest": "/robots.txt",
+      "headers": {
+        "Content-Type": "text/plain;charset=UTF-8"
+      }
+    },
+    {
+      "src": "/sitemap.xml",
+      "dest": "/sitemap.xml",
+      "headers": {
+        "Content-Type": "application/xml;charset=UTF-8"
+      }
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.html"
     }
